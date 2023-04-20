@@ -6,7 +6,7 @@ root = Tk()
 #crypto_name = root.StringVar()
 
 def windowico():
-    image = Image.open(r'C:\Users\Administrator\Documents\project\tk\bitcoin.png')
+    image = Image.open(r'bitcoin.png')
     ph = ImageTk.PhotoImage(image)
     root.wm_iconphoto(True, ph)
 
